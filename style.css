@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#first .general1{
+    background-color: #393939;
+}
+#first .general1 .first{
+    padding: 0.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#first .general1 .first .left{
+    display: flex;
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+
+}
+#first .general1 .first .left span a{
+    color: #00ADEF;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+}
+#first .general1 .first .right{
+    display: flex;
+    align-items: center;
+   
+}
+#first .general1 .first .right .leftA{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+
+}
+#first .general1 .first .right .rightA{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    padding-left: 1rem;
+}
+#first .general1 .first .right .leftA:hover{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    color: #00ADEF;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+
+}
+#first .general1 .first .right .rightA:hover{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00ADEF;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    padding-left: 1rem;
+}
+#first .general1 .first .right .rightA i{
+    padding-right: 0.2rem;
+}
+#first .general1 .first .right .leftA i{
+    padding-right: 0.2rem;
+}
+#first2 .general2{
+    background-color: #e9eaea;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#first2 .general2 .second{
+    padding: 0.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#first2 .general2 .second .right{
+    display: flex;
+    align-items: center;
+}
+#first2 .general2 .second .left img{
+    width: 80%;
+    color: #00ADEF;
+}
+#first2 .general2 .second .right nav a{
+    font-size: 14px;
+    font-weight: 700;
+    color:#393939;
+    line-height: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+#first2 .general2 .second .right .btn{
+    padding-left: 2rem;
+}
+#first2 .general2 .second .right .btn .btn1{
+    padding: 20px 20px;
+    color: white;
+    border-color: transparent;
+    background-color: #2d3e50;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+
+}
+#first2 .general2 .second .right .btn .btn1:hover{
+    padding: 20px 20px;
+    color: white;
+    border-color: transparent;
+    background-color: #435669;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+
+}
+#first2 .general2 .second .right .btn .btn2{
+    padding: 20px 20px;
+    color: white;
+    border-color: transparent;
+    background-color: #00adef;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+
+}
+#second .general{
+    display: flex;
+    padding: 8rem 9rem;
+}
+#second .general .box{
+    width: 12%;
+}
+#second .box img{
+    width: 100%;
+}
+#third .general{
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #393939;
+
+}
+#third .general .box{
+    display: flex;
+    width: 31%;
+    align-items: center;
+    color: white;
+
+}
+#third .general .box .innerBoxLeft{
+    padding-left: 1rem;
+    transform: rotateY(180deg);
+}
+
+#third .general .box .innerBoxRight h4{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#third .general .box .innerBoxRight p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #9aa7af;
+    line-height: 21.5px;
+}
+#fourth .general{
+    padding: 7rem 5rem;
+    display: flex;
+}
+#fourth .general .box{
+    width: 48%;
+    padding-left: 0.5rem;
+    position: relative;
+}
+
+#fourth .general .box img{
+    width: 100%;
+    background-color: #2d3e50;
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+#fourth .general .box .top .text1{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    cursor: pointer;
+
+}
+#fourth .general .box .bottom .text2{
+    position: absolute;
+    bottom: 13rem;
+    left: 2rem;
+    cursor: pointer;
+
+}
+#fourth .general .box .top .text3{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    cursor: pointer;
+
+}
+#fourth .general .box .bottom .text4{
+    position: absolute;
+    bottom: 8rem;
+    left: 2rem;
+    cursor: pointer;
+
+}
+#fourth .general .box .top h3{
+    font-size: 45px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+color: white;
+line-height: 24px;
+
+}
+#fourth .general .box .bottom h3{
+    font-size: 45px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+color: white;
+line-height: 24px;
+ padding-top: 4rem;
+}
+
+#fourth .general .box .top span p{
+    font-size: 14px;
+font-family: 'Roboto', sans-serif;
+color: white;
+line-height: 20px;
+margin-top: 1rem;
+padding: 0.5rem 0.5rem;
+width: 6rem;
+border: 1px solid white;
+
+}
+#fourth .general .box .bottom span p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 20px;
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+    width: 6rem;
+    border: 1px solid white;
+    
+}
+#fifth .general{
+    margin-top: -2rem;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+#fifth .general .heading h1{
+   margin-bottom: 10px;
+   font-size: 36px;
+   font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 36px;
+}
+#fifth .general .imagesAndTitles{
+   display: flex;
+   justify-content: space-between;
+ }
+ #fifth .general .imagesAndTitles .box{
+    width: 23%;
+    margin-top: 2rem;
+    border: 1px solid rgb(223, 229, 233);
+    position: relative;
+  }
+  #fifth .general .imagesAndTitles .box .boxImage img{
+    width: 100%;
+  }
+  #fifth .general .imagesAndTitles .box .boxImage::after{
+      content: 'Sale!';
+      position: absolute;
+      top: 0rem;
+      right: 0rem;
+      color: white;
+      background-color: #00adef;
+      padding: 1rem 1rem;
+}
+  #fifth .general .imagesAndTitles .box .boxText{
+    border: 1px solid rgb(223, 229, 233);
+    padding: 1rem 4rem;
+
+  }
+  #fifth .general .imagesAndTitles .box .boxText a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+  }
+  #fifth .general .imagesAndTitles .box .boxPrice p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  #fifth .general .imagesAndTitles .box .boxPrice p del{
+    color: rgba(0, 0, 0, 0.5);
+  }
+  #fifth .general .imagesAndTitles .box .boxPrice p{
+    color: rgb(0, 173, 239);
+  }
+  
