@@ -190,6 +190,7 @@
     width: 48%;
     padding-left: 0.5rem;
     position: relative;
+
 }
 
 #fourth .general .box img{
@@ -198,7 +199,9 @@
     cursor: pointer;
     border: 1px solid white;
 
+
 }
+
 #fourth .general .box .top .text1{
     position: absolute;
     top: 2rem;
@@ -326,4 +329,328 @@ border: 1px solid white;
   #fifth .general .imagesAndTitles .box .boxPrice p{
     color: rgb(0, 173, 239);
   }
-  
+  #sixth .general{
+    margin-top: -2rem;
+    padding: 6rem 5rem;
+    text-align: center;
+  }
+
+  #sixth .general .heading h1{
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     color: rgb(51, 51, 51);
+     line-height: 36px;
+ }
+ #sixth .general .descriptiveImages{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 7rem;
+    padding-top: 4rem;
+ }
+ #sixth .general .descriptiveImages .frst{
+    display: flex;
+    align-items: center;
+ }
+ #sixth .general .descriptiveImages .box{
+   width: 16%;
+   padding-left: 5rem;
+ }
+ #sixth .general .descriptiveImages img{
+    width: 100%;
+ }
+ #sixth .general .imagesAndTitles{
+    display: flex;
+    justify-content: space-between;
+  }
+  #sixth .general .imagesAndTitles .box{
+     width: 23%;
+     margin-top: 2rem;
+     border: 1px solid rgb(223, 229, 233);
+     position: relative;
+   }
+   #sixth .general .imagesAndTitles .box .boxImage img{
+     width: 100%;
+   }
+   #sixth .general .imagesAndTitles .box .boxImage::after{
+       content: 'Sale!';
+       position: absolute;
+       top: 0rem;
+       right: 0rem;
+       color: white;
+       background-color: #00adef;
+       padding: 1rem 1rem;
+ }
+   #sixth .general .imagesAndTitles .box .boxText{
+     border: 1px solid rgb(223, 229, 233);
+     padding: 1rem 4rem;
+ 
+   }
+   #sixth .general .imagesAndTitles .box .boxText a{
+     text-decoration: none;
+     font-size: 17px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     line-height: 24px;
+     color: black;
+   }
+   #sixth .general .imagesAndTitles .box .boxPrice p{
+     font-size: 22px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     line-height: 32px;
+   }
+   #sixth .general .imagesAndTitles .box .boxPrice p del{
+     color: rgba(0, 0, 0, 0.5);
+   }
+   #sixth .general .imagesAndTitles .box .boxPrice p{
+     color: rgb(0, 173, 239);
+   }
+   #seventh .general{
+    margin-top: -2rem;
+    padding: 6rem 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+   }
+   #seventh .general .box{
+    width: 48%;
+    position: relative;
+   }
+   
+   #seventh .general .box img{
+    width: 100%;
+   }
+   #seventh .general .box h2{
+    position: absolute;
+    bottom: 5rem;
+    left: 15rem;
+    border: 1px solid white;
+    padding: 0.7rem;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    
+   }
+   #seventh .general .box h2:hover{
+    position: absolute;
+    bottom: 5rem;
+    left: 15rem;
+    border: 1px solid white;
+    padding: 0.7rem;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    transform: scaleY(1.1);
+    
+   }
+   #eight .general{
+    margin-top: -2rem;
+    padding: 2rem 5rem;
+    text-align: center;
+  }
+
+  #eight .general .heading h1{
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     color: rgb(51, 51, 51);
+     line-height: 36px;
+ }
+ #eight .general .imagesAndTitles{
+    display: flex;
+    justify-content: space-between;
+  }
+  #eight .general .imagesAndTitles .box{
+     width: 23%;
+     margin-top: 2rem;
+     border: 1px solid rgb(223, 229, 233);
+     position: relative;
+   }
+   #eight .general .imagesAndTitles .box .boxImage img{
+     width: 100%;
+   }
+   #eight .general .imagesAndTitles .box .boxImage .icon{
+    margin-left: -10rem;
+    margin-bottom: 1rem;
+  }
+  #eight .general .imagesAndTitles .box .boxImage .icon i{
+    font-size: 12px;
+    color: #00ADEF;
+  }
+   #eight .general .imagesAndTitles .box .boxImage::after{
+       content: 'Sale!';
+       position: absolute;
+       top: 0rem;
+       right: 0rem;
+       color: white;
+       background-color: #00adef;
+       padding: 1rem 1rem;
+ }
+   #eight .general .imagesAndTitles .box .boxText{
+     border: 1px solid rgb(223, 229, 233);
+     padding: 1rem 4rem;
+ 
+   }
+   #eight .general .imagesAndTitles .box .boxText a{
+     text-decoration: none;
+     font-size: 17px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     line-height: 24px;
+     color: black;
+   }
+   #eight .general .imagesAndTitles .box .boxPrice p{
+     font-size: 22px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     line-height: 32px;
+   }
+   #eight .general .imagesAndTitles .box .boxPrice p del{
+     color: rgba(0, 0, 0, 0.5);
+   }
+  #nineth .general{
+    margin-top: -2rem;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  #nineth .general .box{
+    width: 12%;
+  }
+  #nineth .general .box img{
+    width: 100%;
+  }
+  #tenth .general{
+    margin-top: -2rem;
+    padding: 2rem 5rem;
+  }
+  #tenth .general .heading{
+    text-align: center;
+  }
+  #tenth .general .heading h1{
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     color: rgb(51, 51, 51);
+     line-height: 36px;
+ }
+ #tenth .general .imagesAndTitles{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+ }
+ #tenth .general .imagesAndTitles .box{
+    width: 23%;
+    position: relative;
+ }
+ #tenth .general .imagesAndTitles .box img{
+    width: 100%;
+    margin-bottom: 1rem;
+ }
+ #tenth .general .imagesAndTitles .box .top .btn{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border: 1px solid transparent;
+    background-color: #00ADEF;
+    padding: 0.5rem 1.5rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ }
+ #tenth .general .imagesAndTitles .box .top .btn p{
+    color: white;
+ }
+ #tenth .general .imagesAndTitles .box a{
+    font-size: 24px;
+    font-weight: 700;
+     font-family: 'Roboto', sans-serif;
+     color: #00aeef;
+     line-height: 24px;
+     text-decoration: none;
+ }
+ #tenth .general .imagesAndTitles .box p{
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: 700;
+     font-family: 'Roboto', sans-serif;
+     color: #99abb7;
+     line-height: 18.5px;
+     text-decoration: none;
+ }
+ #tenth .general .imagesAndTitles .box .bottomSecond{
+    padding-top: 7px;
+     color: #99abb7;
+     border-top: 1px solid #99abb7;
+ }
+ #tenth .general .imagesAndTitles .box .bottomSecond p{
+    font-size: 13px;
+    font-weight: 700;
+     font-family: 'Roboto', sans-serif;
+     color: #99abb7;
+     line-height: 18.5px;
+     text-decoration: none;
+ }
+#eleventh .general{
+    margin-top: -2rem;
+    padding: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+#eleventh .general .left{
+   display: flex;
+   border: 1px solid #99abb7;
+   padding: 1rem 2rem;
+   align-items: center;
+}
+#eleventh .general .left i{
+    margin-left: 2rem;
+    color: #99abb7;
+}
+#eleventh .general .left h3{
+    font-size: 14px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     color: #333333;
+     line-height: 24px;
+     margin-left: 0.3rem;
+}
+#eleventh .general .left .btn input{
+    font-size: 14px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     color: #333333;
+     line-height: 24px;
+     margin-left: 3rem;
+     padding: 0rem 5rem 0rem 1rem;
+     font-style: italic;
+}
+#eleventh .general .left .sbmt h3{
+    font-size: 14px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     color: white;
+     background-color: #00ADEF;
+     line-height: 24px;
+     margin-left: 3rem;
+     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+#eleventh .general .right{
+    display: flex;
+     background-color: #00ADEF;
+     padding: 1rem 4rem;
+     color: white;
+}
+#eleventh .general .rightRight{
+     padding-left: 1rem;
+     font-size: 3rem;
+
+}
